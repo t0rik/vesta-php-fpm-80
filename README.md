@@ -1,5 +1,6 @@
 # vesta-php-fpm-80
-vesta templates for php 8.0
+VestaCP PHP templates for PHP 8.0
+
 Usage:
 
 ```
