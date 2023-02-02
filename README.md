@@ -10,7 +10,7 @@ a2enconf php8.0-fpm
 systemctl restart apache2
 cp -r /etc/php/8.0/ /root/vst_install_backups/php8.0/
 rm -f /etc/php/8.0/fpm/pool.d/*
-wget https://github.com/t0rik/vesta-php-fpm-80/raw/master/PHP-FPM-80.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-804.stpl
+wget https://github.com/t0rik/vesta-php-fpm-80/raw/master/PHP-FPM-80.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-80.stpl
 wget https://github.com/t0rik/vesta-php-fpm-80/blob/master/PHP-FPM-80.tpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-80.tpl
 wget https://raw.githubusercontent.com/t0rik/vesta-php-fpm-80/master/PHP-FPM-80.sh -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-80.sh
 chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-80.sh
